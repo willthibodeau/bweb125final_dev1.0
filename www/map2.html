@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Maps</title>
+<link href="./css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="./js/jquery-1.7.2.min.js"></script>
+<script src="./js/jquery.gomap-1.3.2.min.js"></script>
+<script src="./js/map.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a"  id="page1">
+      <div data-role="header" data-position="fixed">
+        <h1>AUT MAP</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="index.html" data-icon="home">Home</a>
+            <li><a href="tg.html" data-icon="search">Trail Guide</a>
+            <li><a href="map2.html" data-icon="info">Map</a>
+          </ul>
+        </div>
+      </div><!-- end header -->
+
+      <div data-role="content" >
+	
+	
+		
+			<button onclick="window.location.href=window.location.href">Get The Map</button>
+		    <div id="map"> </div>
+		</div><!-- end content -->
+
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div>
+</div><!-- end page -->
+
+	
+</div>
+</body>
+</html>
