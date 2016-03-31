@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-		<title>Uraban Trail Asheville</title >
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" />
-		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css" />
-   
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Uraban Trail Asheville</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+    
+     <script src="js/jquery.js"></script> 
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
     
   </head>
 
@@ -21,15 +21,16 @@
         <ul>
           <li><a href="index.html" data-icon="home">Home</a>
           <li><a href="tg.html" data-icon="search">Trail Guide</a>
-          <li><a href="map2.html" data-icon="info">Map</a>
+          <li><a href="map2.html" data-icon="info">Map</a> 
         </ul>
       </div>
     </div><!-- end header -->
-  <div data-role="content">
+  <div data-role="main" class="ui-content">
+  <button onclick="window.location.href=window.location.href">Refresh the page</button> 
     <ul data-role="listview" data-inset="true" data-divider-theme="b">
       <li data-role="list-divider">Locations</li>
-      <li><a href="#pack"><img src="./img/monumenticon.jpg" alt="monument" title="Pack Monument">1. Pack Monument<p> A Monument and some livestock.</p></a></li>
-      <li><a href="#topHat"><img src="./img/haticon.jpg" alt="hat">2. Top Hat<p>Musicians and More...</p></a></li>
+      <li><a href="#pack"><img src="./img/monumenticon.jpg" title="Pack Monument">1. Pack Monument<p> A Monument and some livestock.</p></a></li>
+      <li><a href="#topHat"><img src="./img/haticon.jpg" >2. Top Hat<p>Musicians and More...</p></a></li>
       <li><a href="cap3.html">Drhumor Building</a></li>
       <li><a href="cap4.html">Flat Iron</a></li>
       <li><a href="cap4.html">Cat Walk</a></li>
@@ -45,7 +46,7 @@
         <li><a href="other.html">Other</a>
         <li><a href="events.html">Events</a>
       </ul>
-    </div>
+    </div> 
   </div>
 </div><!-- end page -->
 
@@ -57,11 +58,11 @@
         <ul>
           <li><a href="index.html" data-icon="home">Home</a>
           <li><a href="tg.html" data-icon="search">Trail Guide</a>
-          <li><a href="map2.html" data-icon="info">Map</a>
+          <li><a href="map2.html" data-icon="info">Map</a> 
         </ul>
       </div>
     </div><!-- end header -->
-  <div data-role="content">
+  <div data-role="main" class="ui-content">
     <audio controls>
       <source src="audio/bugs.ogg" type="audio/ogg">
       <source src="audio/bugs.mp3" type="audio/mpeg">
@@ -71,8 +72,21 @@
       <h1>Pack Monument</h1>
       <p><img src="img/monument.jpg" alt="monument">Native American trails guided settlers tohis site, wher in 1793 the Buncombe County Court placeed the first courthouse, prison and stocks. With the opening of the Buncombe Turnpike in 1827, this public square became a crossroads for stagecoach travelers and a gethering place for drovers who herded cattle, hogs and turkeys to markets farther south.</p>
     </div>    
+  
   </div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div> 
+  </div>
 </div><!-- end page -->
+
+
+
 
   <!-- start page -->
 <div data-role="page" data-add-back-btn="true" data-back-btn-text="Previous" id="topHat" data-title="Top Hat">
@@ -82,11 +96,11 @@
       <ul>
         <li><a href="index.html" data-icon="home">Home</a>
         <li><a href="tg.html" data-icon="search">Trail Guide</a>
-        <li><a href="map2.html" data-icon="info">Map</a>
+        <li><a href="map2.html" data-icon="info">Map</a> 
       </ul>
     </div>
   </div><!-- end header -->
-<div data-role="content">
+<div data-role="main" class="ui-content">
   <h2>Hat</h2>
     <audio controls>
       <source src="audio/bugs.ogg" type="audio/ogg">
@@ -106,7 +120,7 @@
         <li><a href="events.html">Events</a>
       </ul>
     </div>
-  </div>
+  </div> 
 </div><!-- end page -->
 
 
