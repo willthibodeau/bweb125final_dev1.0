@@ -7,36 +7,48 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
-    
-     <script src="js/jquery.js"></script> 
+    <script src="js/jquery.js"></script> 
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
-    
   </head>
-
   <body>
-  <div data-role="page" data-add-back-btn="true" data-back-btn-text="Previous" id="page1" data-title="Pack Monument">
+
+    <!-- Trail Guide -->
+  <div data-role="page" id="page1" data-title="TrailGuide">
     <div data-role="header" data-position="fixed">
       <h1>AUT TRAIL GUIDE</h1>
       <div data-role="navbar">
         <ul>
-          <li><a href="index.html" data-icon="home">Home</a>
-          <li><a href="tg.html" data-icon="search">Trail Guide</a>
-          <li><a href="map2.html" data-icon="info">Map</a> 
+          <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+          <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+          <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
         </ul>
       </div>
     </div><!-- end header -->
   <div data-role="main" class="ui-content">
-  <button onclick="window.location.href=window.location.href">Refresh the page</button> 
     <ul data-role="listview" data-inset="true" data-divider-theme="b">
       <li data-role="list-divider">Locations</li>
-      <li><a href="#pack"><img src="./img/monumenticon.jpg" title="Pack Monument">1. Pack Monument<p> A Monument and some livestock.</p></a></li>
-      <li><a href="#topHat"><img src="./img/haticon.jpg" >2. Top Hat<p>Musicians and More...</p></a></li>
-      <li><a href="cap3.html">Drhumor Building</a></li>
-      <li><a href="cap4.html">Flat Iron</a></li>
-      <li><a href="cap4.html">Cat Walk</a></li>
-      <li><a href="cap4.html">Bronze Book</a></li>
-      <li><a href="cap4.html">Civic Center</a></li>
-      <li><a href="cap4.html">Medicinal Herbs</a></li>
+      <li><a href="#pack"><img src="./img/monumenticon.jpg" title="Pack Monument">
+        1. Pack Monument<p> A Monument and some livestock.</p></a></li>
+      <li><a href="#topHat"><img src="./img/haticon.jpg" >
+        2. Top Hat<p>Musicians and More...</p></a></li>
+      <li><a href="#drhumor"><img src="./img/haticon.jpg" >
+        3. Drhumor Building<p>Art Deco era...</p></a></li>
+      <li><a href="#flatIron"><img src="./img/haticon.jpg" >
+        4. Flat Iron<p>Flat Iron Architecture...</p></a></li>
+      <li><a href="#cats"><img src="./img/haticon.jpg" >
+        5. Cat Walk<p>Cats on the walk...</p></a></li>
+      <li><a href="#bronzeBooks"><img src="./img/haticon.jpg" >
+        6. Bronze Book<p>Historic Hilltop...</p></a></li>
+      <li><a href="#civicCenter"><img src="./img/haticon.jpg" >
+        7. Civic Center<p>An Applachian Stage...</p></a></li>
+      <li><a href="#medicinalHerbs"><img src="./img/haticon.jpg" >
+        8. Medicinal Herbs</a></li>
+      <li><a href="#marketPlace"><img src="./img/haticon.jpg" >
+        9. Market Place</a></li>
+      <li><a href="#artInMotion"><img src="./img/haticon.jpg" >
+        10. Art in Motion</a></li>
+      <li><a href="#civicPride"><img src="./img/haticon.jpg" >
+        11. Civic Pride</a></li>
     </ul>
   </div>
   <div data-role="footer" data-position="fixed">
@@ -51,14 +63,14 @@
 </div><!-- end page -->
 
 <!-- start page -->
-<div data-role="page" data-add-back-btn="true" data-back-btn-text="Previous" id="pack" data-title="Pack Monument">
+<div data-role="page" id="pack" data-title="Pack Monument">
     <div data-role="header" data-position="fixed">
       <h1>AUT Pack Monument</h1>
       <div data-role="navbar">
         <ul>
-          <li><a href="index.html" data-icon="home">Home</a>
-          <li><a href="tg.html" data-icon="search">Trail Guide</a>
-          <li><a href="map2.html" data-icon="info">Map</a> 
+          <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+          <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+          <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
         </ul>
       </div>
     </div><!-- end header -->
@@ -86,17 +98,15 @@
 </div><!-- end page -->
 
 
-
-
-  <!-- start page -->
-<div data-role="page" data-add-back-btn="true" data-back-btn-text="Previous" id="topHat" data-title="Top Hat">
+<!-- start page -->
+<div data-role="page"  id="topHat" data-title="Top Hat">
   <div data-role="header" data-position="fixed">
     <h1>AUT Pack Monument</h1>
     <div data-role="navbar">
       <ul>
-        <li><a href="index.html" data-icon="home">Home</a>
-        <li><a href="tg.html" data-icon="search">Trail Guide</a>
-        <li><a href="map2.html" data-icon="info">Map</a> 
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
       </ul>
     </div>
   </div><!-- end header -->
@@ -123,6 +133,364 @@
   </div> 
 </div><!-- end page -->
 
+
+<!-- start page -->
+<div data-role="page"  id="drhumor" data-title="DrhumorBuilding">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Drhumor Building</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Drhumor Building</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>The Drhumor Building</h1>
+      <p>add new drhumor text here<img src="img/drhumor.jpg" alt="Drhumor Building"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="flatIron" data-title="flatIron">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Flat Iron</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Flat Iron</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Flat Iron</h1>
+      <p>add new drhumor text here<img src="img/flatIron.jpg" alt="Flat Iron"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="flatIron" data-title="flatIron">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Flat Iron</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Flat Iron</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Flat Iron</h1>
+      <p>add new flatIron text here<img src="img/flatIron.jpg" alt="Flat Iron"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="cats" data-title="cats">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Cats</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Cats</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Cats</h1>
+      <p>add new cats text here<img src="img/cats.jpg" alt="Cats"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+<!-- start page -->
+<div data-role="page"  id="bronzeBooks" data-title="bronzeBook">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Cats</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Bronze Book</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Bronze Book</h1>
+      <p>add new bronzeBook text here<img src="img/bronzeBook.jpg" alt="Bronze Book"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="civicCenter" data-title="civicCenter">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Civic Center</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Civic Center</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Civic Center</h1>
+      <p>add new bronzeBook text here<img src="img/civicCenter.jpg" alt="Civic Center"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="medicinalHerbs" data-title="medicinalHerbs">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Medicinal Herba</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Medicinal Herbs</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Medicinal Herbs</h1>
+      <p>add new medicinalHerbs text here<img src="img/medicinalHerbs.jpg" alt="Medicinal Herbs"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="marketPlace" data-title="marketPlace">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Market Place</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Market Place</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Market Place</h1>
+      <p>add new medicinalHerbs text here<img src="img/marketPlace.jpg" alt="Market Place"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="artInMotion" data-title="artInMotion">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Art In Motion</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Art In Motion</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Art In Motion</h1>
+      <p>add new medicinalHerbs text here<img src="img/artInMotion.jpg" alt="Art In Motion"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
+
+
+<!-- start page -->
+<div data-role="page"  id="civicPride" data-title="civicPride">
+  <div data-role="header" data-position="fixed">
+    <h1>AUT Civic Pride</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false">Home</a>
+        <li><a href="tg.html" data-icon="search" data-ajax="false">Trail Guide</a>
+        <li><a href="map2.html" data-icon="info" data-ajax="false">Map</a> 
+      </ul>
+    </div>
+  </div><!-- end header -->
+<div data-role="main" class="ui-content">
+  <h2>Art Civic Pride</h2>
+    <audio controls>
+      <source src="audio/bugs.ogg" type="audio/ogg">
+      <source src="audio/fogleg30.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  <div class="trailGuideP">
+      <h1>Civic Pride</h1>
+      <p>add new medicinalHerbs text here<img src="img/civicPride.jpg" alt="Civic Pride"></p>
+  </div>    
+</div><!-- end content -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="food.html" class="ui-btn-active">Food</a>
+        <li><a href="other.html">Other</a>
+        <li><a href="events.html">Events</a>
+      </ul>
+    </div>
+  </div> 
+</div><!-- end page -->
 
 </body>
 </html>
