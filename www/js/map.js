@@ -14,6 +14,7 @@ var markers = [
 		latitude: 35.594551,
 		longitude: -82.553574,
 		title: 'DrHumor Building',
+		icon: 'img/icon1.png',
 			html: {
 				content: '<h3>DrHumor Building</h3><p>Location 3</p>',
 				popup: true
@@ -46,15 +47,7 @@ var markers = [
 					popup: true
 				}
 		},
-		{
-		   	latitude : 35.595027,
-		   	longitude :  -82.551664,
-		   	title : 'Monument',
-			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
-				 	popup : true  
-			   }
-		},
+		
 		{
 		   	latitude : 35.596097,
 		   	longitude :  -82.556365,
@@ -108,14 +101,18 @@ var markers = [
 			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
+		},
+		{
+		   	latitude : 35.595027,
+		   	longitude :  -82.551664,
+		   	title : 'Monument',
+			   	html : {
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+				 	popup : true  
+			   }
 		}
 
 	]	
-$('#map').goMap({
-	latitude : 35.595027,
-	longitude :  -82.551664,
-    zoom : 16,
-}); // end goMap
 $.each(markers,function(i,marker){
 	$.goMap.createMarker(marker);
 }); //end each
