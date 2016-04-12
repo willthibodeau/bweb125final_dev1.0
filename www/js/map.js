@@ -18,7 +18,7 @@ var markers = [
 		title: 'DrHumor Building',
 		icon: 'img/icon3.png',
 			html: {
-				content: '<h3>DrHumor Building</h3><p>Location 3</p>',
+				content: '<h3>DrHumor Building</h3><p>DrHumor Building</p>',
 				popup: true
 			}
 		},
@@ -36,9 +36,9 @@ var markers = [
 			latitude: 35.595194,
 			longitude: -82.554869,
 			title: 'Flat Iron',
-			icon: 'img/icon3a.png',
+			icon: 'img/icon4.png',
 				html: {
-					content: '<h3>Flat Iron</h3><p>Location 4</p>',
+					content: '<img src="./img/monumenticon.jpg"><h3>Flat Iron</h3><p>Location 4</p>',
 					popup: true
 				}
 		},
@@ -48,7 +48,7 @@ var markers = [
 			title: 'Cats',
 			icon: 'img/icon5.png',
 				html: {
-					content: '<h3>Cats</h3><p>Location 5</p>',
+					content: '<img src="./img/monumenticon.jpg"><h3>Cats</h3><p>Location 5</p>',
 					popup: true
 				}
 		},
@@ -59,7 +59,7 @@ var markers = [
 		   	title : 'Bronze Book',
 		   	icon: 'img/icon6.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Bronze Book</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -69,7 +69,7 @@ var markers = [
 		   	title : 'Civic Center',
 		   	icon: 'img/icon7.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Civic Center</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -79,7 +79,7 @@ var markers = [
 		   	title : 'Medicinal Herbs',
 		   	icon: 'img/icon8.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Medicinal Herbs</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -89,7 +89,7 @@ var markers = [
 		   	title : 'Market Place',
 		   	icon: 'img/icon9.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Market Place</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -99,7 +99,7 @@ var markers = [
 		   	title : 'Art In Motion',
 		   	icon: 'img/icon10.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Art In Motion</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -107,9 +107,19 @@ var markers = [
 		   	latitude : 35.595822,
 		   	longitude :  -82.550781,
 		   	title : 'Civic Price',
-		   	icon: 'img/icon10.png',
+		   	icon: 'img/icon11.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./img/monumenticon.jpg"><h3>civic Price</h3><p>Location 1</p>',
+				 	popup : true  
+			   }
+		},
+		{
+		   	latitude : 35.595076,
+		   	longitude :  -82.550687,
+		   	title : 'Jackson Building',
+		   	icon: 'img/icon12.png',
+			   	html : {
+			     	content : '<img src="./img/monumenticon.jpg"><h3>Jackson Building</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
