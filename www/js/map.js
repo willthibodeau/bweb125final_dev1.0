@@ -63,61 +63,61 @@ var markers = [
 				 	popup : true  
 			   }
 		},
-		{
-		   	latitude : 35.597109,
-		   	longitude :  -82.555620,
-		   	title : 'Civic Center',
-		   	icon: 'img/icon7.png',
-			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Civic Center</h3><p>Location 1</p>',
-				 	popup : true  
-			   }
-		},
+		// {
+		//    	latitude : 35.597109,
+		//    	longitude :  -82.555620,
+		//    	title : 'Civic Center',
+		//    	icon: 'img/icon7.png',
+		// 	   	html : {
+		// 	     	content : '<img src="./img/monumenticon.jpg"><h3>Civic Center</h3><p>Location 1</p>',
+		// 		 	popup : true  
+		// 	   }
+		// },
 		{
 		   	latitude : 35.596101,
 		   	longitude :  -82.554954,
 		   	title : 'Medicinal Herbs',
-		   	icon: 'img/icon8.png',
+		   	icon: 'img/icon7.png',
 			   	html : {
 			     	content : '<img src="./img/monumenticon.jpg"><h3>Medicinal Herbs</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
-		{
-		   	latitude : 35.596402,
-		   	longitude :  -82.553018,
-		   	title : 'Market Place',
-		   	icon: 'img/icon9.png',
-			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Market Place</h3><p>Location 1</p>',
-				 	popup : true  
-			   }
-		},
+		// {
+		//    	latitude : 35.596402,
+		//    	longitude :  -82.553018,
+		//    	title : 'Market Place',
+		//    	icon: 'img/icon9.png',
+		// 	   	html : {
+		// 	     	content : '<img src="./img/monumenticon.jpg"><h3>Market Place</h3><p>Location 1</p>',
+		// 		 	popup : true  
+		// 	   }
+		// },
 		{
 		   	latitude : 35.596917,
 		   	longitude :  -82.551124,
 		   	title : 'Art In Motion',
-		   	icon: 'img/icon10.png',
+		   	icon: 'img/icon8.png',
 			   	html : {
 			     	content : '<img src="./img/monumenticon.jpg"><h3>Art In Motion</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
-		{
-		   	latitude : 35.595822,
-		   	longitude :  -82.550781,
-		   	title : 'Civic Price',
-		   	icon: 'img/icon11.png',
-			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>civic Price</h3><p>Location 1</p>',
-				 	popup : true  
-			   }
-		},
+		// {
+		//    	latitude : 35.595822,
+		//    	longitude :  -82.550781,
+		//    	title : 'Civic Price',
+		//    	icon: 'img/icon11.png',
+		// 	   	html : {
+		// 	     	content : '<img src="./img/monumenticon.jpg"><h3>civic Price</h3><p>Location 1</p>',
+		// 		 	popup : true  
+		// 	   }
+		// },
 		{
 		   	latitude : 35.595076,
 		   	longitude :  -82.550687,
 		   	title : 'Jackson Building',
-		   	icon: 'img/icon12.png',
+		   	icon: 'img/icon9.png',
 			   	html : {
 			     	content : '<img src="./img/monumenticon.jpg"><h3>Jackson Building</h3><p>Location 1</p>',
 				 	popup : true  
@@ -129,7 +129,7 @@ var markers = [
 		   	title : 'Monument',
 		   	icon: 'img/icon1.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Pack Monument</h3><p>Location 1</p>',
+			     	content : '<img src="./images/pack.jpg" width="75" height="100"><h5>Pack Monument</h5><p>Location 1</p>',
 				 	popup : true  
 			   }
 		}
