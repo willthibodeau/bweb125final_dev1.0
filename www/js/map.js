@@ -28,7 +28,7 @@ var markers = [
 			title: 'Top Hat',
 			icon: 'img/icon2.png',
 				html: {
-					content: '<img src="./imagea/hat.jpg" width="75" height="100"><h3>Top Hat</h3><p>Location 2</p>',
+					content: '<img src="./images/hat.jpg" width="75" height="100"><h3>Top Hat</h3><p>Location 2</p>',
 					popup: true
 				}
 		},
