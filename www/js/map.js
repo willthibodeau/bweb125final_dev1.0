@@ -18,7 +18,7 @@ var markers = [
 		title: 'DrHumor Building',
 		icon: 'img/icon3.png',
 			html: {
-				content: '<img src="./images/drhumor.jpg><h3>DrHumor Building</h3><p>DrHumor Building</p>',
+				content: '<img src="./images/drhumor.jpg" width="75" height="100"><h3>DrHumor Building</h3><p>DrHumor Building</p>',
 				popup: true
 			}
 		},
@@ -28,7 +28,7 @@ var markers = [
 			title: 'Top Hat',
 			icon: 'img/icon2.png',
 				html: {
-					content: '<img src="./imagea/hat.jpg"><h3>Top Hat</h3><p>Location 2</p>',
+					content: '<img src="./imagea/hat.jpg" width="75" height="100"><h3>Top Hat</h3><p>Location 2</p>',
 					popup: true
 				}
 		},
@@ -38,7 +38,7 @@ var markers = [
 			title: 'Flat Iron',
 			icon: 'img/icon4.png',
 				html: {
-					content: '<img src="./images/flatiron.jpg"><h3>Flat Iron</h3><p>Location 4</p>',
+					content: '<img src="./images/flatiron.jpg" width="75" height="100"><h3>Flat Iron</h3><p>Location 4</p>',
 					popup: true
 				}
 		},
@@ -48,7 +48,7 @@ var markers = [
 			title: 'Cats',
 			icon: 'img/icon5.png',
 				html: {
-					content: '<img src="./images/cats.jpg"><h3>Cats</h3><p>Location 5</p>',
+					content: '<img src="./images/cats.jpg" width="75" height="100"><h3>Cats</h3><p>Location 5</p>',
 					popup: true
 				}
 		},
@@ -59,7 +59,7 @@ var markers = [
 		   	title : 'Bronze Book',
 		   	icon: 'img/icon6.png',
 			   	html : {
-			     	content : '<img src="./images/book.jpg"><h3>Bronze Book</h3><p>Location 1</p>',
+			     	content : '<img src="./images/book.jpg" width="75" height="100"><h3>Bronze Book</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -79,7 +79,7 @@ var markers = [
 		   	title : 'Medicinal Herbs',
 		   	icon: 'img/icon7.png',
 			   	html : {
-			     	content : '<img src="./images/medicinalherbs.jpg"><h3>Medicinal Herbs</h3><p>Location 1</p>',
+			     	content : '<img src="./images/medicinalherbs.jpg" width="75" height="100"><h3>Medicinal Herbs</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -99,7 +99,7 @@ var markers = [
 		   	title : 'Art In Motion',
 		   	icon: 'img/icon8.png',
 			   	html : {
-			     	content : '<img src="./images/art.jpg"><h3>Art In Motion</h3><p>Location 1</p>',
+			     	content : '<img src="./images/art.jpg" width="75" height="100"><h3>Art In Motion</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
@@ -119,7 +119,7 @@ var markers = [
 		   	title : 'Jackson Building',
 		   	icon: 'img/icon9.png',
 			   	html : {
-			     	content : '<img src="./images/jackson.jpg"><h3>Jackson Building</h3><p>Location 1</p>',
+			     	content : '<img src="./images/jackson.jpg" width="75" height="100"><h3>Jackson Building</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
