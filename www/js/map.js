@@ -59,7 +59,7 @@ var markers = [
 		   	title : 'Bronze Book',
 		   	icon: 'img/icon6.png',
 			   	html : {
-			     	content : '<img src="./img/monumenticon.jpg"><h3>Bronze Book</h3><p>Location 1</p>',
+			     	content : '<img src="./images/pack.jpg"><h3>Bronze Book</h3><p>Location 1</p>',
 				 	popup : true  
 			   }
 		},
